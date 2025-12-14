@@ -1,6 +1,6 @@
-from fetch import fetch_pokemon
-from parse import parse_pokemon
-from visualize import plot_pokemon_stats, type_colors
+from modules.fetch import fetch_pokemon
+from modules.parse import parse_pokemon
+from modules.visualize import plot_pokemon_stats, type_colors
 from termcolor import colored
 
 
