@@ -1,15 +1,9 @@
 from fetch import fetch_pokemon
 from parse import parse_pokemon
-from visualize import plot_pokemon_stats, display_colored_types
+from visualize import plot_pokemon_stats, type_colors
 from termcolor import colored
 
-type_colors= {
-    "normal": "white", "fire": "red", "water": "blue", "electric": "yellow",
-    "grass": "green", "ice": "cyan", "fighting": "magenta", "poison": "magenta",
-    "ground": "yellow", "flying": "cyan", "psychic": "magenta", "bug": "green",
-    "rock": "yellow", "ghost": "magenta", "dragon": "blue", "dark": "white",
-    "steel": "white", "fairy": "magenta"
-}
+
 
 
 def main():
